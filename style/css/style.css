@@ -1,0 +1,63 @@
+body {
+  background-color: #53b2ff;
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+}
+main aside {
+  background-color: #3a79ad;
+  padding: 15px;
+  height: 100vh;
+  text-align: center;
+  width: 50px;
+  margin-right: 2rem;
+}
+main aside ul {
+  list-style: none;
+  padding: 0;
+}
+main aside ul li {
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+main aside ul li:hover, main aside ul li:active {
+  font-size: 30px;
+  color: #ffa01f;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section h2 {
+  text-transform: capitalize;
+}
+main section .active {
+  font-size: 46px;
+}
+main section .active::first-letter {
+  color: #ffa01f;
+}
+main section img {
+  display: none;
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  margin-top: 5rem;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
